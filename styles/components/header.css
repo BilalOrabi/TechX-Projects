@@ -1,0 +1,118 @@
+/*######################
+    Header Container
+######################*/
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navbar-bg);
+    width: 100%;
+    padding: 1rem;
+    min-width: 20rem;
+}
+
+/*######################
+    Navigation Bar
+######################*/
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.navbar__menu-icon {
+    position: absolute;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar__logo {
+    width: auto;
+    height: auto;
+    max-height: 3rem;
+}
+
+.navbar__nav-links {
+    display: none;
+    list-style: none;
+}
+
+.navbar__nav-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navbar__right {
+    display: none;
+}
+
+.navbar__sign-in {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navbar__btn-join {
+    background-color: var(--bg-color);
+    color: var(--btn-text);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/*######################
+    Desktop (1024px+)
+######################*/
+
+@media (min-width: 64rem) {
+    .header-container {
+        padding: 1rem 2rem;
+    }
+
+    .navbar {
+        justify-content: flex-start;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .navbar__menu-icon {
+        display: none;
+    }
+
+    .navbar__logo {
+        flex-shrink: 0;
+    }
+
+    .navbar__nav-links {
+        display: flex;
+        gap: 2.5rem;
+        margin: 0;
+        align-items: center;
+        font-family: var(--main-font);
+    }
+
+    .navbar__nav-links li a {
+        font-size: 1rem;
+        font-family: var(--main-font);
+    }
+
+    .navbar__right {
+        display: flex;
+        gap: 2rem;
+        margin-left: auto;
+        align-items: center;
+    }
+
+    .navbar__sign-in {
+        font-size: 1rem;
+        font-family: var(--main-font);
+    }
+}

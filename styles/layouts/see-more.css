@@ -1,0 +1,161 @@
+/*######################
+    See More Section
+######################*/
+
+.see-more-section {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    padding: 2rem 0.75rem;
+}
+
+.see-more-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 37.5rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.see-more__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.see-more__text-wrapper h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--main-heading-color);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.plus-span {
+    color: var(--bg-color);
+    font-size: 2rem;
+    font-weight: 1.375rem;
+}
+
+.see-more__paragraph {
+    font-size: 1rem;
+    color: var(--main-heading-color);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.see-more-btn {
+    background-color: var(--bg-color);
+    color: var(--btn-text);
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    width: fit-content;
+}
+
+.see-more__images-wrapper {
+    width: 100%;
+}
+
+.see-more__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+}
+
+.see-more__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem 0.75rem;
+    text-align: center;
+}
+
+.see-more__icon {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see-more__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.see-more__label {
+    font-size: 0.875rem;
+    color: var(--main-heading-color);
+    margin: 0;
+    font-weight: 500;
+}
+
+/*######################
+    Desktop (64rem+)
+######################*/
+
+@media (min-width: 64rem) {
+    .see-more-section {
+        padding: 3rem 0.75rem;
+    }
+
+    .see-more-container {
+        flex-direction: row;
+        gap: 3rem;
+        align-items: stretch;
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    .see-more__text-wrapper {
+        flex: 1;
+        padding: 3rem;
+    }
+
+    .see-more__text-wrapper h2 {
+        font-size: 2rem;
+    }
+
+    .see-more__paragraph {
+        font-size: 1rem;
+    }
+
+    .see-more-btn {
+        padding: 0.875rem 2.5rem;
+        font-size: 1.125rem;
+    }
+
+    .see-more__images-wrapper {
+        flex: 1;
+    }
+
+    .see-more__grid {
+        gap: 1.5rem;
+    }
+
+    .see-more__card {
+        padding: 2rem 1rem;
+    }
+
+    .see-more__icon {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .see-more__label {
+        font-size: 1rem;
+    }
+}

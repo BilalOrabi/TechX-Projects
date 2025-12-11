@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="real estate, property listings, agents, homes for sale, apartments for rent">
+    <meta name="description" content="reverifi - Search our listings for your next purchase and find trusted professionals">
+    <title>reverifi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <nav class="navbar">
+                <img class="navbar__menu-icon" src="assets/menu.svg" alt="menu icon">
+                <img class="navbar__logo" src="assets/download-logo-reverifi-green.svg" alt="reverifi logo">
+                
+                <ul class="navbar__nav-links">
+                    <li><a href="#">How we Work</a></li>
+                    <li><a href="#">Find an Agent</a></li>
+                    <li><a href="#">Knowledge Center</a></li>
+                </ul>
+
+                <div class="navbar__right">
+                    <a href="#" class="navbar__sign-in">Sign In</a>
+                    <button class="navbar__btn-join">Join Now</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <!--##################################### hero Section #############################-->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero__content">
+                    <h1 class="hero__heading">Search our listings for your next purchase</h1>
+                    
+                    <div class="hero__search">
+                        <div class="search-input-container">
+                            <img class="search-input-container__icon" src="assets/location-pin.svg" alt="location icon">
+                            <input 
+                                type="text" 
+                                class="search-input-container__input" 
+                                placeholder="Enter City, neighborhood, ZIP, or address"
+                            >
+                            <button class="search-input-container__btn">
+                                <img src="assets/Filter.svg" alt="search">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__illustration">
+                    <img src="assets/Group 262.svg" alt="property illustration">
+                </div>
+            </div>
+        </section>
+
+<!--##################################### Featured Listing Section #############################-->
+        <!-- Featured Listing Section - Desktop Grid Version -->
+        <section class="featured-listing desktop-grid">
+            <h2 class="featured-listing__title">Our Featured Listing</h2>
+            
+            <div class="featured-listing__grid">
+				<!-- Featured Listing Card 1 -->
+                <div class="featured-listing__card">
+                    <div class="featured-listing__image-wrapper">
+                        <img class="featured-listing__image" src="assets/pexels-curtis-adams-5178068.svg" alt="Featured property living room">
+                        
+                        <div class="featured-listing__new-badge">New</div>
+                        
+                        <div class="featured-listing__agent-avatar">
+                            <img src="assets/Person icon.svg" alt="Agent profile picture">
+                        </div>
+                    </div>
+
+                    <div class="featured-listing__info">
+                        <div class="featured-listing__header">
+                            <h3 class="featured-listing__name">Apartment#1</h3>
+                            <span class="featured-listing__distance">
+                                <img class="featured-listing__distance-icon" src="assets/location-pin.svg" alt="location icon">
+                                1.1km away
+                            </span>
+                        </div>
+
+                        <p class="featured-listing__location">Bronx, NY 10459</p>
+
+                        <div class="featured-listing__stats">
+                            <span class="featured-listing__stat">
+                                2
+                                <img src="assets/bedroom.svg" alt="Bedrooms icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/wifi icon.svg" alt="WiFi available icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                1
+                                <img src="assets/shower icon.svg" alt="Bathrooms icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/air-conditioner.svg" alt="Climate control icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/bench icon.svg" alt="Furniture icon">
+                            </span>
+                        </div>
+
+                        <div class="featured-listing__footer">
+                            <span class="featured-listing__price">$30,000</span>
+                            <div class="featured-listing__actions">
+                                <div class="featured-listing__icon-wrapper">
+                                    <img class="featured-listing__icon" src="assets/favourite icon.svg" alt="Add to favorites">
+                                </div>
+                                <div class="featured-listing__icon-wrapper">
+                                    <img class="featured-listing__icon" src="assets/share icon.svg" alt="Share property">
+                                </div>
+                            </div>                   
+                        </div>
+                    </div>
+                </div>
+				<!-- Featured Listing Card 2 -->
+                <div class="featured-listing__card">
+                    <div class="featured-listing__image-wrapper">
+                        <img class="featured-listing__image" src="assets/pexels-pixabay-259962.svg" alt="Featured property living room">
+                        
+                        <div class="featured-listing__new-badge">Rent</div>
+                        
+                        <div class="featured-listing__agent-avatar">
+                            <img src="assets/Person icon.svg" alt="Agent profile picture">
+                        </div>
+                    </div>
+
+                    <div class="featured-listing__info">
+                        <div class="featured-listing__header">
+                            <h3 class="featured-listing__name">Apartment#1</h3>
+                            <span class="featured-listing__distance">
+                                <img class="featured-listing__distance-icon" src="assets/location-pin.svg" alt="location icon">
+                                1.1km away
+                            </span>
+                        </div>
+
+                        <p class="featured-listing__location">Bronx, NY 10459</p>
+
+                        <div class="featured-listing__stats">
+                            <span class="featured-listing__stat">
+                                2
+                                <img src="assets/bedroom.svg" alt="Bedrooms icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/wifi icon.svg" alt="WiFi available icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                1
+                                <img src="assets/shower icon.svg" alt="Bathrooms icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/air-conditioner.svg" alt="Climate control icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/bench icon.svg" alt="Furniture icon">
+                            </span>
+                        </div>
+
+                        <div class="featured-listing__footer">
+                            <span class="featured-listing__price">$123/Month</span>
+                            <div class="featured-listing__actions">
+                                <div class="featured-listing__icon-wrapper">
+                                    <img class="featured-listing__icon" src="assets/favourite icon.svg" alt="Add to favorites">
+                                </div>
+                                <div class="featured-listing__icon-wrapper">
+                                    <img class="featured-listing__icon" src="assets/share icon.svg" alt="Share property">
+                                </div>
+                            </div>                   
+                        </div>
+                    </div>
+                </div>
+				<!-- Featured Listing Card 3 -->
+                <div class="featured-listing__card">
+                    <div class="featured-listing__image-wrapper">
+                        <img class="featured-listing__image" src="assets/pexels-pixabay-276724.svg" alt="Featured property living room">
+                        
+                        <div class="featured-listing__new-badge">Sale</div>
+                        
+                        <div class="featured-listing__agent-avatar">
+                            <img src="assets/Person icon.svg" alt="Agent profile picture">
+                        </div>
+                    </div>
+
+                    <div class="featured-listing__info">
+                        <div class="featured-listing__header">
+                            <h3 class="featured-listing__name">Apartment#1</h3>
+                            <span class="featured-listing__distance">
+                                <img class="featured-listing__distance-icon" src="assets/location-pin.svg" alt="location icon">
+                                1.1km away
+                            </span>
+                        </div>
+
+                        <p class="featured-listing__location">Bronx, NY 10459</p>
+
+                        <div class="featured-listing__stats">
+                            <span class="featured-listing__stat">
+                                2
+                                <img src="assets/bedroom.svg" alt="Bedrooms icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/wifi icon.svg" alt="WiFi available icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                1
+                                <img src="assets/shower icon.svg" alt="Bathrooms icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/air-conditioner.svg" alt="Climate control icon">
+                            </span>
+                            <span class="featured-listing__stat">
+                                <img src="assets/bench icon.svg" alt="Furniture icon">
+                            </span>
+                        </div>
+
+                        <div class="featured-listing__footer">
+                            <span class="featured-listing__price">$30,000</span>
+                            <div class="featured-listing__actions">
+                                <div class="featured-listing__icon-wrapper">
+                                    <img class="featured-listing__icon" src="assets/favourite icon.svg" alt="Add to favorites">
+                                </div>
+                                <div class="featured-listing__icon-wrapper">
+                                    <img class="featured-listing__icon" src="assets/share icon.svg" alt="Share property">
+                                </div>
+                            </div>                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-listing__carousel">
+                <div class="featured-listing__dots">
+                    <div class="featured-listing__dot active"></div>
+                    <div class="featured-listing__dot"></div>
+                    <div class="featured-listing__dot"></div>
+                    <div class="featured-listing__dot"></div>
+                    <div class="featured-listing__dot"></div>
+                    <div class="featured-listing__dot"></div>
+                    <div class="featured-listing__dot"></div>
+                </div>
+            </div>
+        </section>
+
+		<!-- Featured Listing Section - Mobile -->
+		<section class="featured-listing mobile-only">
+            <div class="featured-listing-container">
+                <h2 class="featured-listing__title">Our Featured Listing</h2>
+
+                <div class="featured-listing__image-wrapper">
+                    <img class="featured-listing__image" src="assets/pexels-curtis-adams-5178068.svg" alt="Featured property living room">
+                    
+                    <div class="featured-listing__new-badge">New</div>
+                    
+                    <div class="featured-listing__agent-avatar">
+                        <img src="assets/Person icon.svg" alt="Agent profile picture">
+                    </div>
+                </div>
+
+                <div class="featured-listing__info">
+                    <div class="featured-listing__header">
+                        <h3 class="featured-listing__name">Apartment#1</h3>
+                        <span class="featured-listing__distance">
+                            <img class="featured-listing__distance-icon" src="assets/location-pin.svg" alt="location icon">
+                            1.1km away
+                        </span>
+                    </div>
+
+                    <p class="featured-listing__location">Bronx, NY 10459</p>
+
+                    <div class="featured-listing__stats">
+                        <span class="featured-listing__stat">
+                            2
+                            <img src="assets/bedroom.svg" alt="Bedrooms icon">
+                        </span>
+                        <span class="featured-listing__stat">
+                            <img src="assets/wifi icon.svg" alt="WiFi available icon">
+                        </span>
+                        <span class="featured-listing__stat">
+                            1
+                            <img src="assets/shower icon.svg" alt="Bathrooms icon">
+                        </span>
+                        <span class="featured-listing__stat">
+                            <img src="assets/air-conditioner.svg" alt="Climate control icon">
+                        </span>
+                        <span class="featured-listing__stat">
+                            <img src="assets/bench icon.svg" alt="Furniture icon">
+                        </span>
+                    </div>
+
+                    <div class="featured-listing__footer">
+                        <span class="featured-listing__price">$30,000</span>
+                        <div class="featured-listing__actions">
+                            <div class="featured-listing__icon-wrapper">
+                                <img class="featured-listing__icon" src="assets/favourite icon.svg" alt="Add to favorites">
+                            </div>
+                            <div class="featured-listing__icon-wrapper">
+                                <img class="featured-listing__icon" src="assets/share icon.svg" alt="Share property">
+                            </div>
+                        </div>                   
+                    </div>
+
+                    <div class="featured-listing__carousel">
+                        <div class="featured-listing__dots">
+                            <div class="featured-listing__dot active"></div>
+                            <div class="featured-listing__dot"></div>
+							<div class="featured-listing__dot"></div>
+                            <div class="featured-listing__dot"></div>
+                            <div class="featured-listing__dot"></div>
+                            <div class="featured-listing__dot"></div>
+                            <div class="featured-listing__dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<!--##################################### Events Section #############################-->
+
+
+        <!-- Events Section mobile -->
+        <section class="events mobile-only">
+            
+            <h2 class="events__title">Events</h2>
+
+                        <!-- Filter Tabs -->
+            <div class="events__filters">
+                <button class="events__filter-btn events__filter-btn--active">All</button>
+                <button class="events__filter-btn">Upcoming</button>
+                <button class="events__filter-btn">Past</button>
+            </div>
+
+            <button class="events__nav-btn events__nav-btn--left">
+                <img src="assets/left arrow.svg" alt="Previous event">
+            </button>
+            <div class="events-container">
+            <!-- Events Carousel -->
+            <div class="events__carousel-wrapper">
+                <div class="events__carousel">
+                    <div class="events__card">
+                        <div class="events__image-wrapper">
+                            <img class="events__image" src="assets/main-event-img.svg" alt="Event venue">
+                            <div class="events__date-badge">
+                                <div class="events__date-day">08</div>
+                                <div class="events__date-month">OCT</div>
+                            </div>
+                        </div>
+
+                        <div class="events__info">
+                            <h3 class="events__name">Lorem ipsum</h3>
+                            <p class="events__details">7:30 - 10:30PM @someplace</p>
+
+                            <div class="events__footer">
+                                <div class="events__actions">
+                                    <button class="events__action-btn">
+                                        <img src="assets/Close.svg" alt="Add to calendar">
+                                    </button>
+                                    <button class="events__action-btn">
+                                        <img src="assets/share icon.svg" alt="Share event">
+                                    </button>
+                            </div>
+
+                                <div class="events__attendees">
+                                    <img src="assets/people.svg" alt="Attendees icon">
+                                    <span class="events__count">182</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <button class="events__nav-btn events__nav-btn--right">
+                <img src="assets/right arrow.svg" alt="Next event">
+            </button>
+            
+        </section>
+
+        <!-- Events Section - Desktop Grid Version -->
+        <section class="events desktop-grid">
+            <h2 class="events__title">Events</h2>
+
+            <!-- Filter Tabs -->
+            <div class="events__filters">
+                <button class="events__filter-btn events__filter-btn--active">All</button>
+                <button class="events__filter-btn">Upcoming</button>
+                <button class="events__filter-btn">Past</button>
+            </div>
+
+            <div class="events__grid">
+                <!-- Event Card 1 -->
+                <div class="events__card">
+                    <div class="events__image-wrapper">
+                        <img class="events__image" src="assets/main-event-img.svg" alt="Event venue">
+                        <div class="events__date-badge">
+                            <div class="events__date-day">08</div>
+                            <div class="events__date-month">OCT</div>
+                        </div>
+                    </div>
+
+                    <div class="events__info">
+                        <h3 class="events__name">Lorem ipsum</h3>
+                        <p class="events__details">7:30 - 10:30PM @someplace</p>
+
+                        <div class="events__footer">
+                            <div class="events__actions">
+                                <button class="events__action-btn">
+                                    <img src="assets/Close.svg" alt="Add to calendar">
+                                </button>
+                                <button class="events__action-btn">
+                                    <img src="assets/share icon.svg" alt="Share event">
+                                </button>
+                            </div>
+
+                            <div class="events__attendees">
+                                <img src="assets/people.svg" alt="Attendees icon">
+                                <span class="events__count">182</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="events__card">
+                    <div class="events__image-wrapper">
+                        <img class="events__image" src="assets/events-img2.svg" alt="Event venue">
+                        <div class="events__date-badge">
+                            <div class="events__date-day">08</div>
+                            <div class="events__date-month">OCT</div>
+                        </div>
+                    </div>
+
+                    <div class="events__info">
+                        <h3 class="events__name">Lorem ipsum</h3>
+                        <p class="events__details">7:30 - 10:30PM @someplace</p>
+
+                        <div class="events__footer">
+                            <div class="events__actions">
+                                <button class="events__action-btn">
+                                    <img src="assets/Close.svg" alt="Add to calendar">
+                                </button>
+                                <button class="events__action-btn">
+                                    <img src="assets/share icon.svg" alt="Share event">
+                                </button>
+                            </div>
+
+                            <div class="events__attendees">
+                                <img src="assets/people.svg" alt="Attendees icon">
+                                <span class="events__count">182</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="events__card">
+                    <div class="events__image-wrapper">
+                        <img class="events__image" src="assets/events-img3.svg" alt="Event venue">
+                        <div class="events__date-badge">
+                            <div class="events__date-day">08</div>
+                            <div class="events__date-month">OCT</div>
+                        </div>
+                    </div>
+
+                    <div class="events__info">
+                        <h3 class="events__name">Lorem ipsum</h3>
+                        <p class="events__details">7:30 - 10:30PM @someplace</p>
+
+                        <div class="events__footer">
+                            <div class="events__actions">
+                                <button class="events__action-btn">
+                                    <img src="assets/Close.svg" alt="Add to calendar">
+                                </button>
+                                <button class="events__action-btn">
+                                    <img src="assets/share icon.svg" alt="Share event">
+                                </button>
+                            </div>
+
+                            <div class="events__attendees">
+                                <img src="assets/people.svg" alt="Attendees icon">
+                                <span class="events__count">182</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 4 -->
+                <div class="events__card">
+                    <div class="events__image-wrapper">
+                        <img class="events__image" src="assets/event-img4.svg" alt="Event venue">
+                        <div class="events__date-badge">
+                            <div class="events__date-day">08</div>
+                            <div class="events__date-month">OCT</div>
+                        </div>
+                    </div>
+
+                    <div class="events__info">
+                        <h3 class="events__name">Lorem ipsum</h3>
+                        <p class="events__details">7:30 - 10:30PM @someplace</p>
+
+                        <div class="events__footer">
+                            <div class="events__actions">
+                                <button class="events__action-btn">
+                                    <img src="assets/Close.svg" alt="Add to calendar">
+                                </button>
+                                <button class="events__action-btn">
+                                    <img src="assets/share icon.svg" alt="Share event">
+                                </button>
+                            </div>
+
+                            <div class="events__attendees">
+                                <img src="assets/people.svg" alt="Attendees icon">
+                                <span class="events__count">182</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--##################################### See More Section #############################-->
+
+        <section class="see-more-section">
+            <div class="see-more-container">
+                <div class="see-more__text-wrapper">
+                    <h2>reverifi
+                        <span class="plus-span">+</span>
+                    </h2>
+                    <p class="see-more__paragraph">Search our network and find your supporting team to complete the process</p>
+                    <button class="see-more-btn">See More</button>
+                </div>
+
+                <div class="see-more__images-wrapper">
+                    <div class="see-more__grid">
+                        
+                        <div class="see-more__card">
+                            <div class="see-more__icon">
+                                <img src="assets/Shape.svg" alt="Attorney icon">
+                            </div>
+                            <p class="see-more__label">Attorney</p>
+                        </div>
+
+                        
+                        <div class="see-more__card">
+                            <div class="see-more__icon">
+                                <img src="assets/camera-svgrepo-com.svg" alt="Photographer icon">
+                            </div>
+                            <p class="see-more__label">Photographer</p>
+                        </div>
+
+                        
+                        <div class="see-more__card">
+                            <div class="see-more__icon">
+                                <img src="assets/Agent.svg" alt="Agent icon">
+                            </div>
+                            <p class="see-more__label">Agent</p>
+                        </div>
+
+                        
+                        <div class="see-more__card">
+                            <div class="see-more__icon">
+                                <img src="assets/clean-svgrepo-com.svg" alt="Cleaning Services icon">
+                            </div>
+                            <p class="see-more__label">Cleaning Services</p>
+                        </div>
+
+                        
+                        <div class="see-more__card">
+                            <div class="see-more__icon">
+                                <img src="assets/inspection-svgrepo-com.svg" alt="Home Inspectors icon">
+                            </div>
+                            <p class="see-more__label">Home Inspectors</p>
+                        </div>
+
+                        <div class="see-more__card">
+                            <div class="see-more__icon">
+                                <img src="assets/insurance-svgrepo-com.svg" alt="Insurance Provider icon">
+                            </div>
+                            <p class="see-more__label">Insurance Provider</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Social Media Icons -->
+            <div class="footer__social" aria-label="Follow us on social media">
+                <a href="#" class="footer__social-link" aria-label="Facebook">
+                    <img src="assets/facebook-icon.svg" alt="">
+                </a>
+                <a href="#" class="footer__social-link" aria-label="Instagram">
+                    <img src="assets/insta-icon.svg" alt="">
+                </a>
+                <a href="#" class="footer__social-link" aria-label="YouTube">
+                    <img src="assets/youtube-icon.svg" alt="">
+                </a>
+                <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                    <img src="assets/linkedin-icon.svg" alt="">
+                </a>
+            </div>
+
+            
+            <div class="footer__content">
+                
+                <div class="footer__section footer__left">
+                    <div class="footer__logo">
+                        <img src="assets/download-logo-reverifi-green.svg" alt="reverifi logo">
+                    </div>
+                    
+                    <div class="footer__contact" aria-label="Contact information">
+                        <p class="footer__contact-item">
+                            <span class="footer__contact-icon"><img src="assets/location-footer.svg" alt="location-footer-icon"></span>
+                            <span>712-427-1242</span>
+                        </p>
+                        <p class="footer__contact-item">
+                            <span class="footer__contact-icon"><img src="assets/mail-footer.svg" alt="email-footer-icon"></span>
+                            <span>support@example.com</span>
+                        </p>
+                        <p class="footer__contact-item">
+                            <span class="footer__contact-icon"><img src="assets/phone-call-footer.svg" alt="phone-footer-icon"></span>
+                            <span>319-764-9876</span>
+                        </p>
+                    </div>
+                </div>
+
+                
+                <div class="footer__section footer__helpful-links" role="navigation" aria-label="Helpful links">
+                    <h4 class="footer__section-title">Helpful Link</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Sign in</a></li>
+                        <li><a href="#" class="footer__link">Support</a></li>
+                        <li><a href="#" class="footer__link">FAQ's</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="footer__section footer__company" role="navigation" aria-label="Company information">
+                    <h4 class="footer__section-title">Company</h4>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Privacy</a></li>
+                        <li><a href="#" class="footer__link">Terms of use</a></li>
+                        <li><a href="#" class="footer__link">Accessibility</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="footer__section footer__newsletter">
+                    <h4 class="footer__section-title">Subscribe to our Newsletter</h4>
+                    <div class="footer__newsletter" aria-label="Newsletter subscription">
+						<p>Subscribe to our Newsletter</p>
+                        <button type="submit" class="footer__newsletter-btn" aria-label="Subscribe">Subscribe</button>
+					</div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="footer__copyright">
+            <p>Copyright © 2021 Reverifi. All rights reserved</p>
+        </div>
+</body>
+</html>
