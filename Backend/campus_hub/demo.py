@@ -1,7 +1,7 @@
-from People import Student, PremiumStudent, Mentor
-from education import Course
-from resources import Resource, ResourceCatalog
-from report import Report
+from .People import Student, PremiumStudent, Mentor
+from .education import Course
+from .resources import Resource, ResourceCatalog
+from .report import Report
 
 
 def run_demo():

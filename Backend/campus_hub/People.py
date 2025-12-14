@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List
-from finance import Wallet
+from .finance import Wallet
 
 
 class Person(ABC):

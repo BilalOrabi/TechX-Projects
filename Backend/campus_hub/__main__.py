@@ -1,3 +1,3 @@
-from demo import run_demo
+from .demo import run_demo
 
 run_demo()
