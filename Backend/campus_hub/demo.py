@@ -1,4 +1,4 @@
-from core import Student, PremiumStudent, Mentor
+from People import Student, PremiumStudent, Mentor
 from education import Course
 from resources import Resource, ResourceCatalog
 from report import Report
