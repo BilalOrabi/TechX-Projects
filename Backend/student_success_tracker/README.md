@@ -29,7 +29,7 @@ python success_tracker.py init-db --seed
 
 **Add a new student:**
 ```bash
-python success_tracker.py add --name "Mohammad abdo" --email john@example.com --major "Computer Science" --gpa 3.8 --status active
+python success_tracker.py add --name "Mohammad abdo" --email moh@example.com --major "Computer Science" --gpa 3.8 --status active
 ```
 
 **List all students (sorted by GPA):**
