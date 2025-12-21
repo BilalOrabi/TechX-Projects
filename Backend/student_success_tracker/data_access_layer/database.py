@@ -98,13 +98,12 @@ def add_student(name, email, major, gpa, status="active"):
     try:
         with sqlite3.connect(connection_string) as connection:
             cursor = connection.cursor()
-            cursor.execute(INSERT_STUDENT_SQL,(name, email, major, gpa, status, timestamp))
+            cursor.execute(INSERT_STUDENT_SQL, (name, email, major, gpa, status, timestamp))
             return cursor.lastrowid
-
     except sqlite3.IntegrityError as e:
         if "students.email" in str(e):
             raise ValueError("Email already exists") from e
-        raise
+        
 
     except sqlite3.Error as e:
         raise ValueError(f"Failed to add student: {e}") from e
@@ -233,7 +232,7 @@ def update_gpa(student_id, gpa):
     with sqlite3.connect(connection_string) as connection:
         cursor = connection.cursor()
         try:
-            cursor.execute(UPDATE_GPA_SQL,(gpa, timestamp, student_id))
+            cursor.execute(UPDATE_GPA_SQL, (gpa, timestamp, student_id))
             return cursor.rowcount > 0
         except sqlite3.Error as e:
             raise ValueError(f"Failed to update GPA for student {student_id}: {e}") from e

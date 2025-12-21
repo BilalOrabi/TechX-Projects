@@ -12,47 +12,47 @@ A production-ready CLI tool for managing student records with SQLite. Track stud
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 3. Initialize the database:
    ```bash
-   python success_tracker.py init-db
+   python3 success_tracker.py init-db
    ```
 
 ## Usage
 
 **Initialize database with demo students:**
 ```bash
-python success_tracker.py init-db --seed
+python3 success_tracker.py init-db --seed
 ```
 
 **Add a new student:**
 ```bash
-python success_tracker.py add --name "Mohammad abdo" --email moh@example.com --major "Computer Science" --gpa 3.8 --status active
+python3 success_tracker.py add --name "Mohammad abdo" --email moh@example.com --major "Computer Science" --gpa 3.8 --status active
 ```
 
 **List all students (sorted by GPA):**
 ```bash
-python success_tracker.py list
+python3 success_tracker.py list
 ```
 
 **Filter students by status:**
 ```bash
-python success_tracker.py list --status probation
+python3 success_tracker.py list --status probation
 ```
 
 **Find students by major:**
 ```bash
-python success_tracker.py find-major "Mathematics"
+python3 success_tracker.py find-major "Mathematics"
 ```
 
 **Update a student's GPA:**
 ```bash
-python success_tracker.py update-gpa --id 1 --gpa 3.9
+python3 success_tracker.py update-gpa --id 1 --gpa 3.9
 ```
 
 **Delete a student:**
 ```bash
-python success_tracker.py delete --id 1
+python3 success_tracker.py delete --id 1
 ```
